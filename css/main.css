@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body {
+  background: #eee
+}
+
+nav.home {
+  background-color: #111820;
+}
+
+div.vide {
+	height: 500px;
+	background-image: url(../img/photo2.jpg);
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+  margin-bottom: 20px;
+}
+
+img.sven {
+	width: 400px;
+}
+
+div.vide2 {
+	height: 500px;
+	background-image: url(../img/Orion_003.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+  margin-top: 20px;
+}
+
+div.intro {
+  text-align: center;
+}
+
+.content {
+  margin: 20px 0!important;
+}
+
+.article {
+	padding: 10px 0;
+	border:1px solid black;
+	text-align: justify;
+}
+
+.masquer, .masquer2, .masquer3, .masquer4 {
+	display: none;
+}
+
+a.lire, a.lire2, a.lire3, a.lire4, a.lire5 {
+	text-decoration:none;
+	color:#000;
+}
+
+a.lire:hover, a.lire2:hover, a.lire3:hover, a.lire4:hover {
+	color: red;
+}
+
+div#map {
+  height: 400px;
+}
+
+
+footer {
+  background-color: #111820;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  color: #fff
+}
+
+
+
+@media (max-width:767px) {
+  .footer-contacts {
+      margin: 30px 0
+  }
+}
+
+
+
+div.social-links {
+  margin-top: 20px;
+  color: #fff
+}
+
+.social-links a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 5px;
+  margin-bottom: 5px
+}
+
+footer a:hover {
+	color: red;
+}
+
+
+.facebook:hover{background:#3B5999; border-color:#3B5999;}
+
+.twitter:hover{background:#00BAFF; border-color:#00BAFF;}
+
+.instagram:hover{background:#fff; border-color:#fff;}
